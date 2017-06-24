@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Hangman</title>
+			<link rel="stylesheet" type="text/css" href="css/main.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  	
+		</head>
+		<body>
+			<div id="youwin">
+				<h1>Congratulations!</h1>
+				<p>Bobby survived... To play again refresh the page</p>
+			</div>
+			<div id="youloose">
+				<h1>Sorry you lost...</h1>
+				<p> Please refresh the webpage and try again!!</p>
+			</div>
+			<div id="rulesbox">
+				<h1 id="rules">Rules</h1>
+				<ol>
+					<li>Unlike normal hangman, you don't loose a body part for wrong answers. Guessing the whole word wrong will loose you a body part</</li>
+				</ol>
+			</div>
+			<p id="title">Hangman</p>
+			<div id="body">
+				<div id="wordplace"></div>
+				<input id="box" type="text" name="text" placeholder="Type a letter">
+				<button onclick="buttoninput()" type="button" class="btn btn-warning">Try It</button>
+				<button onclick="show()" type="button" class="btn btn-danger">show</button>
+				<div id="test"></div>
+		
+				<p id="answer"></p>
+			</div>
+				<div id="answerbox">
+				<input id="right" type="text" name="text" placeholder="Guess the word">
+				<button onclick="gotitright()" type="button" class="btn btn-primary">I Wouldn't</button>
+				<div id="gotit"></div>
+			</div>
+			<div id="whitebox">
+		
+				<div id="coverup">
+				<div id="head"></div>
+				<div id="waist"></div>
+				<div id="butt"></div>
+				<div id="leftarm"></div>
+				<div id="rightarm"></div>
+				<div id="leftleg"></div>
+				<div id="rightleg"></div>
+			</div>
+		
+			<div id="person"> </div>
+			</div>
+			<script type="text/javascript" src="js/ajax.js"></script>
+		</body>
+	</html>

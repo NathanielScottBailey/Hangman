@@ -1,0 +1,184 @@
+body{
+	background-image: url(/image/background2.jpg);
+	background-position: 10% 30%;
+	background-repeat: no-repeat;
+}
+#head{
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	left: 30.3%;
+	z-index: 1;
+	top: 2%;
+}
+#waist{
+	background-color: white;
+	width: 170px;
+	height: 180px;
+	position: absolute;
+	left: 33.9%;
+	z-index: 1;
+	top: 25%;
+}
+#butt{
+	background-color: white;
+	width: 160px;
+	height: 60px;
+	position: absolute;
+	left: 34.8%;
+	z-index: 1;
+	top: 53%;
+}
+#leftarm{
+	background-color: white;
+	width: 202px;
+	height: 200px;
+	position: absolute;
+	left: 0.9%;
+	z-index: 1;
+	top: 15%;
+}
+#rightarm{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 59.6%;
+	z-index: 1;
+	top: 14%;
+
+}
+#rightleg{
+	background-color: white;
+	width: 100px;
+	height: 230px;
+	position: absolute;
+	left: 31.5%;
+	z-index: 1;
+	top: 62%;
+}
+#leftleg{
+	background-color: white;
+	width: 100px;
+	height: 230px;
+	position: absolute;
+	left: 48.4%;
+	z-index: 1;
+	top: 62%;
+}
+#person{
+	background-image: url(/image/person.jpg);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0.2%;
+	top: 0.1%;
+	background-color: red;
+	z-index: 
+	
+}
+#whitebox{
+	width: 600px;
+	height: 650px;
+	position: absolute;
+	left: 30%;
+	bottom: 50px;
+	background-color: white;
+	border:4px solid black;
+	margin: 0 100px 0 0;
+}
+#answerbox{
+	position: absolute;
+	left: 80%;
+	top: 10%;
+}
+#title{
+	position: absolute;
+	left: 43%;
+	font-size: 380%;
+	margin: 0 0 10px 0;
+
+}
+#answer{
+	width: 100px;
+	position: absolute;
+	font-size: 150%;
+	margin: 0;
+ 
+}
+#body{
+	position: absolute;
+	left: 5%;
+	top: 10%;
+}
+#rules{
+	position: absolute;
+	left: 34%;
+}
+#rulesbox{
+	width: 28%;
+	height: 20%;
+	position: absolute;
+	left: 71.5%;
+	background-color: #bfd2f2;
+	top: 20%;
+}
+#rulesbox li{
+	position: absolute;
+	top: 30%;
+	margin: 10px 0 0 0;
+}
+#youloose{
+	width: 95%;
+	height: 95%;
+	left: 2.5%;
+	background-image: url(/image/youloose1.jpeg);
+	position: absolute;
+	z-index: 2;
+	background-position: 20% 40%;
+	color: white;
+	background-repeat: no-repeat;
+}
+#youloose h1{
+	position: absolute;
+	left: 38%;
+	top: 26%;
+	font-size: 350%;
+}
+#youloose p{
+	position: absolute;
+	left: 22%;
+	top: 38%;
+	font-size: 300%;
+}
+#youwin{
+
+	width: 95%;
+	height: 95%;
+	left: 2.5%;
+	background-color: white;
+	position: absolute;
+	z-index: 2;
+	background-image: url(/image/win.jpeg);
+	background-position: 50% 50%;
+}
+#youwin h1{
+	position: absolute;
+	left: 34%;
+
+	font-size: 350%;
+	color: white;
+	/*background-color: black;*/
+	border-radius: 10%;
+	margin-bottom: 30px;
+}
+#youwin p{
+	position: absolute;
+	left: 22%;
+	top: 17%;
+	font-size: 250%;
+	color: white;
+	/*background-color: black;*/
+
+}
